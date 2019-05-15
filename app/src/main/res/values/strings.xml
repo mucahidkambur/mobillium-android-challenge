@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VitrinApp</string>
+    <string name="search_hint">Ürün veya vitrin ara</string>
+    <string name="txMoneyNew">%d TL</string>
+    <string name="txNewOld">%d TL</string>
+    <string name="new_items">En Yeni Ürünler</string>
+    <string name="all_items">TÜMÜ ></string>
+    <string name="collections">Koleksiyonlar</string>
+    <string name="editor_vitrin">Editör Seçimi Vitrinler</string>
+    <string name="new_vitrin">En Yeni Vitrinler</string>
+    <string name="categories">Kategoriler</string>
+    <string name="btn_vitrin">Vitrine Git</string>
+    <string name="item">%d ÜRÜN</string>
+</resources>
