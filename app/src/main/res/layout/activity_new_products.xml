@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".activities.NewProductsActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/tbNewProducts"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -25,9 +25,9 @@
             android:textColor="@android:color/white"
             android:text="@string/new_items" />
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycNewProducts"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -1,8 +1,8 @@
 package com.app.appchallenge.viewmodel;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
 
 import com.app.appchallenge.database.ApiInterface;
 import com.app.appchallenge.database.entity.pojos.VitrinResult;
@@ -58,6 +58,7 @@ public class DataViewModel extends ViewModel {
             @Override
             public void onResponse(Call<List<VitrinResult>> call, Response<List<VitrinResult>> response) {
                 dataList.setValue(response.body());
+                loading.setValue(true);
             }
 
             @Override

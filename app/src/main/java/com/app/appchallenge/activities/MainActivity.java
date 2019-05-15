@@ -1,17 +1,18 @@
 package com.app.appchallenge.activities;
 
-import android.app.Activity;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.speech.RecognizerIntent;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import com.airbnb.lottie.LottieAnimationView;
+import com.google.android.material.tabs.TabLayout;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -27,9 +28,7 @@ import com.app.appchallenge.adapters.EditorListAdapter;
 import com.app.appchallenge.adapters.FeaturedAdapter;
 import com.app.appchallenge.adapters.NewVitrinAdapter;
 import com.app.appchallenge.adapters.NewsAdapter;
-import com.app.appchallenge.database.entity.pojos.Category;
 import com.app.appchallenge.database.entity.pojos.Collection;
-import com.app.appchallenge.database.entity.pojos.Featured;
 import com.app.appchallenge.database.entity.pojos.Product;
 import com.app.appchallenge.database.entity.pojos.Shop;
 import com.app.appchallenge.database.entity.pojos.VitrinResult;
@@ -78,6 +77,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @BindView(R.id.linCol)
     LinearLayout linCol;
 
+    @BindView(R.id.linLoad)
+    LinearLayout linLoad;
+
+    @BindView(R.id.loadAnim)
+    LottieAnimationView loadAnim;
+
     @BindView(R.id.imgVitBack)
     ImageView imgVitBack;
 
@@ -124,7 +129,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         viewModel.getLoading().observe(this, isLoading -> {
             if (isLoading != null){
-
+                loadAnim.setVisibility(View.GONE);
+                if (isLoading){
+                    linLoad.setVisibility(View.VISIBLE);
+                }
             }
         });
 
