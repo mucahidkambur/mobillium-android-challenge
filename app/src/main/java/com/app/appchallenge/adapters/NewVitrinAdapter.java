@@ -37,6 +37,9 @@ public class NewVitrinAdapter  extends PagerAdapter {
     @BindView(R.id.txNewVitEsya)
     TextView txNewVitEsya;
 
+    @BindView(R.id.txNoLogo)
+    TextView txNoLogo;
+
     private Context context;
     private List<Shop> newVitrinList;
     private LayoutInflater layoutInflater;
@@ -56,9 +59,15 @@ public class NewVitrinAdapter  extends PagerAdapter {
 
         if(newVitrinList.get(position).getCover() != null){
             Picasso.get().load(newVitrinList.get(position).getCover().getUrl()).into(imgVit);
+        }else{
+            Picasso.get().load(R.drawable.no_cover).into(imgVit);
         }
+
         if (newVitrinList.get(position).getLogo() != null){
             Picasso.get().load(newVitrinList.get(position).getLogo().getUrl()).into(imgVitLog);
+        }else{
+            Picasso.get().load(R.drawable.no_logo).into(imgVitLog);
+            txNoLogo.setText(newVitrinList.get(position).getName().substring(0, 1));
         }
 
         txNewVitMain.setText(newVitrinList.get(position).getName());

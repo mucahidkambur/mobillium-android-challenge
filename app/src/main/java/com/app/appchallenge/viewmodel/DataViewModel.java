@@ -35,6 +35,12 @@ public class DataViewModel extends ViewModel {
         return dataList;
     }
 
+    public LiveData<List<VitrinResult>> refreshData(){
+        dataList = new MutableLiveData<>();
+        loadDatas();
+        return dataList;
+    }
+
     private void loadDatas(){
 
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();

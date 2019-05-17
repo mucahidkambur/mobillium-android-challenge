@@ -7,4 +7,5 @@
     <color name="grey">#DADADA</color>
     <color name="light_grey">#F0EDED</color>
     <color name="dark_grey">#9E9E9E</color>
+    <color name="text_sub">#ababab</color>
 </resources>

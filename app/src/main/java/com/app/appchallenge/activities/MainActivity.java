@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.speech.RecognizerIntent;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.app.appchallenge.helper.ParallaxPageTransformer;
 import com.google.android.material.tabs.TabLayout;
+
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -86,9 +89,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @BindView(R.id.imgVitBack)
     ImageView imgVitBack;
 
+    @BindView(R.id.swipeContainer)
+    SwipeRefreshLayout swipeContainer;
+
     List<Product> productList;
     List<Collection> collectionList;
     List<Shop> editorShopList;
+
+    DataViewModel viewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,10 +112,54 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         linNewItems.setOnClickListener(this);
         linCol.setOnClickListener(this);
 
-        DataViewModel viewModel = ViewModelProviders.of(this).get(DataViewModel.class);
+        viewModel = ViewModelProviders.of(this).get(DataViewModel.class);
+        observableViewModel();
+
+        viewModel.getLoading().observe(this, isLoading -> {
+            if (isLoading != null){
+                loadAnim.setVisibility(View.GONE);
+                if (isLoading){
+                    swipeContainer.setRefreshing(false);
+                    linLoad.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        viewPager.setPageTransformer(false, new ParallaxPageTransformer());
+        indicator.setupWithViewPager(viewPager, true);
+
+
+        vPagerVitrin.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+                Log.d("deneme", "viewpager: " + String.valueOf(i));
+                Picasso.get().load(editorShopList.get(i).getCover().getUrl()).noPlaceholder().into(imgVitBack);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+
+            }
+        });
+
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                viewModel.refreshData();
+                linLoad.setVisibility(View.INVISIBLE);
+            }
+        });
+
+    }
+
+    private void observableViewModel(){
         viewModel.getDatas().observe(this, (Observer<List<VitrinResult>>) vitrinResults -> {
             if (vitrinResults != null){
-
                 //buradaki list ler recyc lerdeki ile aynı olsun
                 productList = vitrinResults.get(1).getProducts();
                 collectionList = vitrinResults.get(3).getCollections();
@@ -126,37 +178,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Picasso.get().load(editorShopList.get(0).getCover().getUrl()).into(imgVitBack);
             }
         });
-
-        viewModel.getLoading().observe(this, isLoading -> {
-            if (isLoading != null){
-                loadAnim.setVisibility(View.GONE);
-                if (isLoading){
-                    linLoad.setVisibility(View.VISIBLE);
-                }
-            }
-        });
-
-        indicator.setupWithViewPager(viewPager, true);
-
-
-        vPagerVitrin.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int i, float v, int i1) {
-
-            }
-
-            @Override
-            public void onPageSelected(int i) {
-                Log.d("deneme", "viewpager: " + String.valueOf(i));
-                Picasso.get().load(editorShopList.get(i).getCover().getUrl()).into(imgVitBack);
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int i) {
-
-            }
-        });
-
     }
 
     private void setupRecyclerView(RecyclerView recyclerView){
