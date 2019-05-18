@@ -9,6 +9,7 @@
     <string name="editor_vitrin">EDİTÖR SEÇİMİ VİTRİNLER</string>
     <string name="new_vitrin">EN YENİ VİTRİNLER</string>
     <string name="categories">KATEGORİLER</string>
-    <string name="btn_vitrin">Vitrine Git</string>
+    <string name="btn_vitrin">VİTRİNE GİT</string>
     <string name="item">%d ÜRÜN</string>
+    <string name="follow">TAKİP ET</string>
 </resources>

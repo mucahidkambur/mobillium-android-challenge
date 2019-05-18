@@ -104,7 +104,7 @@
                     android:background="@drawable/editor_button"
                     style="?android:attr/borderlessButtonStyle"
                     android:text="@string/btn_vitrin"
-                    android:textColor="#C2C2C2" />
+                    android:textColor="@color/text_sub" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

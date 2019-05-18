@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import com.app.appchallenge.R;
 import com.app.appchallenge.adapters.CategoriesAdapter;
 import com.app.appchallenge.adapters.CollectionsAdapter;
-import com.app.appchallenge.adapters.EditorListAdapter;
+import com.app.appchallenge.adapters.EditorListPagerAdapter;
 import com.app.appchallenge.adapters.FeaturedAdapter;
 import com.app.appchallenge.adapters.NewVitrinAdapter;
 import com.app.appchallenge.adapters.NewsAdapter;
@@ -71,17 +71,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @BindView(R.id.recycCat)
     RecyclerView recycCat;
+
     @BindView(R.id.recycCol)
     RecyclerView recycCol;
 
     @BindView(R.id.linNewItems)
     LinearLayout linNewItems;
 
+    @BindView(R.id.linEditorVit)
+    LinearLayout linEditorVit;
+
     @BindView(R.id.linCol)
     LinearLayout linCol;
 
     @BindView(R.id.linLoad)
     LinearLayout linLoad;
+
+    @BindView(R.id.linVitNew)
+    LinearLayout linVitNew;
 
     @BindView(R.id.loadAnim)
     LottieAnimationView loadAnim;
@@ -95,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     List<Product> productList;
     List<Collection> collectionList;
     List<Shop> editorShopList;
+    List<Shop> vitrinShopList;
 
     DataViewModel viewModel;
 
@@ -111,6 +119,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         linNewItems.setOnClickListener(this);
         linCol.setOnClickListener(this);
+        linEditorVit.setOnClickListener(this);
+        linVitNew.setOnClickListener(this);
 
         viewModel = ViewModelProviders.of(this).get(DataViewModel.class);
         observableViewModel();
@@ -164,11 +174,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 productList = vitrinResults.get(1).getProducts();
                 collectionList = vitrinResults.get(3).getCollections();
                 editorShopList = vitrinResults.get(4).getShops();
+                vitrinShopList = vitrinResults.get(5).getShops();
+
                 viewPager.setAdapter(new FeaturedAdapter(this, vitrinResults.get(0).getFeatured()));
                 recycNew.setAdapter(new NewsAdapter(this, vitrinResults.get(1).getProducts()));
                 recycCat.setAdapter(new CategoriesAdapter(this, vitrinResults.get(2).getCategories()));
                 recycCol.setAdapter(new CollectionsAdapter(this, vitrinResults.get(3).getCollections()));
-                vPagerVitrin.setAdapter(new EditorListAdapter(this, vitrinResults.get(4).getShops()));
+                vPagerVitrin.setAdapter(new EditorListPagerAdapter(this, vitrinResults.get(4).getShops()));
                 vPagerVitrin.setClipToPadding(false);
                 vPagerVitrin.setPadding(100, 0, 100, 0);
                 vPagerNew.setAdapter(new NewVitrinAdapter(this, vitrinResults.get(5).getShops()));
@@ -223,6 +235,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentCol = new Intent(getApplicationContext(), CollectionsActivity.class);
                 intentCol.putExtra("coll", (Serializable) collectionList);
                 startActivity(intentCol);
+                overridePendingTransition(R.anim.activity_animation_slide_from_right, R.anim.activity_animation_slide_from_left);
+                break;
+            case R.id.linEditorVit:
+                Intent intentEditor = new Intent(getApplicationContext(), EditorVitrinActivity.class);
+                intentEditor.putExtra("editor", (Serializable) editorShopList);
+                startActivity(intentEditor);
+                overridePendingTransition(R.anim.activity_animation_slide_from_right, R.anim.activity_animation_slide_from_left);
+                break;
+            case R.id.linVitNew:
+                Intent intentVit = new Intent(getApplicationContext(), NewVitrinsActivity.class);
+                intentVit.putExtra("vit", (Serializable) vitrinShopList );
+                startActivity(intentVit);
                 overridePendingTransition(R.anim.activity_animation_slide_from_right, R.anim.activity_animation_slide_from_left);
                 break;
         }

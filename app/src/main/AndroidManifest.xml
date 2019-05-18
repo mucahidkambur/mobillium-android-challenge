@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.CollectionsActivity"></activity>
+        <activity android:name=".activities.NewVitrinsActivity"></activity>
+        <activity android:name=".activities.EditorVitrinActivity" />
+        <activity android:name=".activities.CollectionsActivity" />
         <activity android:name=".activities.NewProductsActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
