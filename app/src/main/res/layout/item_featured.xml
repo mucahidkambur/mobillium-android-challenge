@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txFMain"
         android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
         android:layout_marginTop="5dp"
         android:text="TextView" />
 

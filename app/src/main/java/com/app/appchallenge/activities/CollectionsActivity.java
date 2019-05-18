@@ -57,9 +57,17 @@ public class CollectionsActivity extends AppCompatActivity {
 
         if (item.getItemId() == android.R.id.home) {
             finish();
-            overridePendingTransition(R.anim.activity_animation_slide_from_right, R.anim.activity_animation_slide_from_left);
+            overridePendingTransition(R.anim.activity_animation_reverse_slide_from_right, R.anim.activity_animation_reverse_slide_from_left);
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        overridePendingTransition(R.anim.activity_animation_reverse_slide_from_right, R.anim.activity_animation_reverse_slide_from_left);
+
+        super.onBackPressed();
     }
 }

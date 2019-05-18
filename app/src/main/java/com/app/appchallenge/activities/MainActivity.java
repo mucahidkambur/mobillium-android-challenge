@@ -164,14 +164,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 productList = vitrinResults.get(1).getProducts();
                 collectionList = vitrinResults.get(3).getCollections();
                 editorShopList = vitrinResults.get(4).getShops();
-                viewPager.setAdapter(new FeaturedAdapter(getApplicationContext(), vitrinResults.get(0).getFeatured()));
-                recycNew.setAdapter(new NewsAdapter(getApplicationContext(), vitrinResults.get(1).getProducts()));
-                recycCat.setAdapter(new CategoriesAdapter(getApplicationContext(), vitrinResults.get(2).getCategories()));
-                recycCol.setAdapter(new CollectionsAdapter(getApplicationContext(), vitrinResults.get(3).getCollections()));
-                vPagerVitrin.setAdapter(new EditorListAdapter(getApplicationContext(), vitrinResults.get(4).getShops()));
+                viewPager.setAdapter(new FeaturedAdapter(this, vitrinResults.get(0).getFeatured()));
+                recycNew.setAdapter(new NewsAdapter(this, vitrinResults.get(1).getProducts()));
+                recycCat.setAdapter(new CategoriesAdapter(this, vitrinResults.get(2).getCategories()));
+                recycCol.setAdapter(new CollectionsAdapter(this, vitrinResults.get(3).getCollections()));
+                vPagerVitrin.setAdapter(new EditorListAdapter(this, vitrinResults.get(4).getShops()));
                 vPagerVitrin.setClipToPadding(false);
                 vPagerVitrin.setPadding(100, 0, 100, 0);
-                vPagerNew.setAdapter(new NewVitrinAdapter(getApplicationContext(), vitrinResults.get(5).getShops()));
+                vPagerNew.setAdapter(new NewVitrinAdapter(this, vitrinResults.get(5).getShops()));
                 vPagerNew.setClipToPadding(false);
                 vPagerNew.setPadding(50, 0, 0, 0);
 
