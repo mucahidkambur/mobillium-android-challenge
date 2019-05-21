@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat May 18 05:42:57 EET 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Muco\\Desktop\\Money\\AppChallenge\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

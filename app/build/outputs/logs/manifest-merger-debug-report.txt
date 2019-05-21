@@ -1,0 +1,252 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.1.4] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\a7f7379981c364242798d4d5a8306e54\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bf46240b2cfcb5e95fd781e1c71ab31a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\2a08d2499f1b37b082a942eed81a04a3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ed308efd8ef13c0234946504f5f196b7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c7d8925f5542416527724a573a0678f9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6341b276480e2a67a40df0e57f49431c\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d8d3aeefe39c7dff16bffac5ca3c31d\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\9da99f6a4aff4e084520f067c506a3f3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\aeca12b9a00c6dc5ff4b59f7355b26a0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\434e9935af460549a2c20039a1a2395a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b65cdd2496d97b5008b5d3696431d7b5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\0ce90f1f4e90557312c220270a0b17c7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c5fa8cdfe36bfa3d4beae5d126a4483c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\d577b526f87b56aa36c1bffbf592c15a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d3344c80146afe8253457a074e11fb7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bb9cfa03f556f2eb4c53d8b46149b25b\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ff056e28f3e9c3a5904d4c42ec061781\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8f24698034d63bae988f902bfb31e445\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5126f8b699939ffc8ade6c78dee95172\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6613f4b4f5c5ad6cfde5b65d022162a2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b57e05462408be62906109f354495a5e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\36b69e93244afa667328a9c36b203900\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5ed73cbf0e0033b1b15279742d0b2a2f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\814d48cbeee5960cc81aeea9abbce0ec\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6147ab72c9829d4342f3dd8a32d562d3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5c572b9b4325ae002ef429ab033d3c6c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8d93e5969019942693aa2f5821937cac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7b83fa42ea50364a60580317536527e6\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ac9b2ab898d0a6d43db5d332fc998788\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b24380f8f99e8bc568d6962ba1844769\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\e383e1f5ca5a36cd06313c4f19d74ea9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6c254b5261904f8847066a4335880230\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8837c1571c4707050d53453698f2796b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\3cc06e8607f6800ce993cc88e8afe512\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\efe74630c29f8188abb7ffb3d5af7415\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7d2909201d571ba9fa932b56329c71f6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35381935b413f32d09208a03f7a28448\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bd2e93782b2e1d4b86a0830c2c3f7374\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35fa085a0cbc33514e8f900a52b74808\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\12be973c2d4654b1f5309e9c6907c304\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bf46240b2cfcb5e95fd781e1c71ab31a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bf46240b2cfcb5e95fd781e1c71ab31a\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\2a08d2499f1b37b082a942eed81a04a3\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\2a08d2499f1b37b082a942eed81a04a3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c7d8925f5542416527724a573a0678f9\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c7d8925f5542416527724a573a0678f9\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d8d3aeefe39c7dff16bffac5ca3c31d\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d8d3aeefe39c7dff16bffac5ca3c31d\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:22:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7b83fa42ea50364a60580317536527e6\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7b83fa42ea50364a60580317536527e6\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ac9b2ab898d0a6d43db5d332fc998788\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ac9b2ab898d0a6d43db5d332fc998788\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.app.appchallenge.activities.NewVitrinsActivity
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:14:9-76
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:14:19-64
+activity#com.app.appchallenge.activities.EditorVitrinActivity
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:15:9-69
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:15:19-66
+activity#com.app.appchallenge.activities.CollectionsActivity
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:16:9-68
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:16:19-65
+activity#com.app.appchallenge.activities.NewProductsActivity
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:17:9-68
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:17:19-65
+activity#com.app.appchallenge.activities.MainActivity
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:18:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.1.4] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\a7f7379981c364242798d4d5a8306e54\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.1.4] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\a7f7379981c364242798d4d5a8306e54\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bf46240b2cfcb5e95fd781e1c71ab31a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bf46240b2cfcb5e95fd781e1c71ab31a\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\2a08d2499f1b37b082a942eed81a04a3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\2a08d2499f1b37b082a942eed81a04a3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ed308efd8ef13c0234946504f5f196b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ed308efd8ef13c0234946504f5f196b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c7d8925f5542416527724a573a0678f9\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c7d8925f5542416527724a573a0678f9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6341b276480e2a67a40df0e57f49431c\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6341b276480e2a67a40df0e57f49431c\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d8d3aeefe39c7dff16bffac5ca3c31d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d8d3aeefe39c7dff16bffac5ca3c31d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\9da99f6a4aff4e084520f067c506a3f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\9da99f6a4aff4e084520f067c506a3f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\aeca12b9a00c6dc5ff4b59f7355b26a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\aeca12b9a00c6dc5ff4b59f7355b26a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\434e9935af460549a2c20039a1a2395a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\434e9935af460549a2c20039a1a2395a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b65cdd2496d97b5008b5d3696431d7b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b65cdd2496d97b5008b5d3696431d7b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\0ce90f1f4e90557312c220270a0b17c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\0ce90f1f4e90557312c220270a0b17c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c5fa8cdfe36bfa3d4beae5d126a4483c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\c5fa8cdfe36bfa3d4beae5d126a4483c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\d577b526f87b56aa36c1bffbf592c15a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\d577b526f87b56aa36c1bffbf592c15a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d3344c80146afe8253457a074e11fb7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\4d3344c80146afe8253457a074e11fb7\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bb9cfa03f556f2eb4c53d8b46149b25b\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bb9cfa03f556f2eb4c53d8b46149b25b\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ff056e28f3e9c3a5904d4c42ec061781\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ff056e28f3e9c3a5904d4c42ec061781\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8f24698034d63bae988f902bfb31e445\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8f24698034d63bae988f902bfb31e445\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5126f8b699939ffc8ade6c78dee95172\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5126f8b699939ffc8ade6c78dee95172\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6613f4b4f5c5ad6cfde5b65d022162a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6613f4b4f5c5ad6cfde5b65d022162a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b57e05462408be62906109f354495a5e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b57e05462408be62906109f354495a5e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\36b69e93244afa667328a9c36b203900\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\36b69e93244afa667328a9c36b203900\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5ed73cbf0e0033b1b15279742d0b2a2f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5ed73cbf0e0033b1b15279742d0b2a2f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\814d48cbeee5960cc81aeea9abbce0ec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\814d48cbeee5960cc81aeea9abbce0ec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6147ab72c9829d4342f3dd8a32d562d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6147ab72c9829d4342f3dd8a32d562d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\57b322fe5bd3845c639f328afe8b6c33\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5c572b9b4325ae002ef429ab033d3c6c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\5c572b9b4325ae002ef429ab033d3c6c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8d93e5969019942693aa2f5821937cac\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8d93e5969019942693aa2f5821937cac\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7b83fa42ea50364a60580317536527e6\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7b83fa42ea50364a60580317536527e6\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ac9b2ab898d0a6d43db5d332fc998788\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\ac9b2ab898d0a6d43db5d332fc998788\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b24380f8f99e8bc568d6962ba1844769\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\b24380f8f99e8bc568d6962ba1844769\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\e383e1f5ca5a36cd06313c4f19d74ea9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\e383e1f5ca5a36cd06313c4f19d74ea9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6c254b5261904f8847066a4335880230\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\6c254b5261904f8847066a4335880230\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8837c1571c4707050d53453698f2796b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\8837c1571c4707050d53453698f2796b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\3cc06e8607f6800ce993cc88e8afe512\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\3cc06e8607f6800ce993cc88e8afe512\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\efe74630c29f8188abb7ffb3d5af7415\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\efe74630c29f8188abb7ffb3d5af7415\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7d2909201d571ba9fa932b56329c71f6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7d2909201d571ba9fa932b56329c71f6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35381935b413f32d09208a03f7a28448\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35381935b413f32d09208a03f7a28448\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bd2e93782b2e1d4b86a0830c2c3f7374\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\bd2e93782b2e1d4b86a0830c2c3f7374\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35fa085a0cbc33514e8f900a52b74808\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\35fa085a0cbc33514e8f900a52b74808\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\12be973c2d4654b1f5309e9c6907c304\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\12be973c2d4654b1f5309e9c6907c304\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muco\Desktop\Money\AppChallenge\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\7f9a5c6ef6f6865f826f1c9f70616d8c\AndroidManifest.xml:24:13-79
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Muco\.gradle\caches\transforms-2\files-2.1\824d3616f08985f8be30cebaf4819247\AndroidManifest.xml:9:13-64
