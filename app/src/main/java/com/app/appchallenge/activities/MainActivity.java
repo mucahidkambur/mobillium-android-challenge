@@ -122,10 +122,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         linEditorVit.setOnClickListener(this);
         linVitNew.setOnClickListener(this);
 
+        viewModel = ViewModelProviders.of(this).get(DataViewModel.class);
         observableViewModel();
+
+        viewModel.getLoading().observe(this, isLoading -> {
+            if (isLoading != null){
+                loadAnim.setVisibility(View.GONE);
+                if (isLoading){
+                    swipeContainer.setRefreshing(false);
+                    linLoad.setVisibility(View.VISIBLE);
+                }
+            }
+        });
 
         viewPager.setPageTransformer(false, new ParallaxPageTransformer());
         indicator.setupWithViewPager(viewPager, true);
+
 
         vPagerVitrin.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -135,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onPageSelected(int i) {
+                Log.d("deneme", "viewpager: " + String.valueOf(i));
                 Picasso.get().load(editorShopList.get(i).getCover().getUrl()).noPlaceholder().into(imgVitBack);
             }
 
@@ -155,19 +168,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void observableViewModel(){
-
-        viewModel = ViewModelProviders.of(this).get(DataViewModel.class);
-
-        viewModel.getLoading().observe(this, isLoading -> {
-            if (isLoading != null){
-                loadAnim.setVisibility(View.GONE);
-                if (isLoading){
-                    swipeContainer.setRefreshing(false);
-                    linLoad.setVisibility(View.VISIBLE);
-                }
-            }
-        });
-
         viewModel.getDatas().observe(this, (Observer<List<VitrinResult>>) vitrinResults -> {
             if (vitrinResults != null){
                 //buradaki list ler recyc lerdeki ile aynı olsun

@@ -52,7 +52,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="5dp"
                 android:text="TextView"
-                android:textColor="@color/text_sub"
+                android:textColor="@color/grey"
                 android:textSize="10sp" />
         </LinearLayout>
 
